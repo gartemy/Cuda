@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cuda</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav
+          class="
+            navbar navbar-expand-lg navbar-dark
+            justify-content-between
+            p-0
+          "
+        >
+          <a href="/" class="navbar-brand p-0 mr-0">
+            <img src="images/logo.png" alt="Cuda" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+          >
+            <div class="animated-icon">
+              <span></span><span></span><span></span>
+            </div>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item me-5">
+                <a class="nav-link text-light text-uppercase" href="#">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-light text-uppercase" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-light text-uppercase" href="#work"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-light text-uppercase" href="#blog"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-light text-uppercase" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="greeting">
+      <div class="container">
+        <p class="greeting__title text-center text-light m-0">
+          Hi there! We are the new kids on the block <br />
+          and we build awesome websites and mobile apps.
+        </p>
+        <div class="d-flex justify-content-center">
+          <a
+            class="button greeting__button text-light text-uppercase"
+            href="#contact"
+            >Work with us!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="arrow-up">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <section class="services" id="about">
+      <div class="container">
+        <h2 class="text-center text-light text-uppercase section-heading">
+          Services we provide
+        </h2>
+        <div class="d-flex justify-content-center">
+          <div class="line"></div>
+        </div>
+        <p class="text-center pt-4 m-0 section-description">
+          We are working with both individuals and businesses from all over the
+          globe <br />
+          to create awesome websites and applications.
+        </p>
+
+        <div class="services__row row text-center">
+          <div class="services__column col-lg-3 col-md-6">
+            <div class="item-services">
+              <div class="item-services__icon">
+                <img src="images/flag.png" alt="Flag" />
+              </div>
+              <div class="item-services__title">
+                <h3 class="text-uppercase m-0">Branding</h3>
+              </div>
+              <div class="item-services__text">
+                <p class="pt-4 m-0">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetuer adipiscing elit, <br />
+                  sed diam nonummy nibh.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__column col-lg-3 col-md-6">
+            <div class="item-services">
+              <div class="item-services__icon">
+                <img src="images/pencil.png" alt="Pencil" />
+              </div>
+              <div class="item-services__title">
+                <h3 class="text-uppercase m-0">Design</h3>
+              </div>
+              <div class="item-services__text">
+                <p class="pt-4 m-0">
+                  Sed ut perspiciatis unde <br />
+                  omnis iste natus error sit <br />
+                  voluptatem
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__column col-lg-3 col-md-6">
+            <div class="item-services">
+              <div class="item-services__icon">
+                <img src="images/gears.png" alt="Gears" />
+              </div>
+              <div class="item-services__title">
+                <h3 class="text-uppercase m-0">Development</h3>
+              </div>
+              <div class="item-services__text">
+                <p class="pt-4 m-0">
+                  At vero eos et accusamus et <br />
+                  iusto odio dignissimos qui <br />
+                  blanditiis praesentium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__column col-lg-3 col-md-6">
+            <div class="item-services">
+              <div class="item-services__icon">
+                <img src="images/rocket.png" alt="Rocket" />
+              </div>
+              <div class="item-services__title">
+                <h3 class="text-uppercase m-0">Rocket science</h3>
+              </div>
+              <div class="item-services__text">
+                <p class="pt-4 m-0">
+                  Et harum quidem rerum est <br />
+                  et expedita distinctio. Nam <br />
+                  libero tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="container">
+        <h2 class="text-center text-uppercase section-heading">
+          Meet our beautiful team
+        </h2>
+        <div class="d-flex justify-content-center">
+          <div class="line"></div>
+        </div>
+        <p class="text-center pt-4 m-0 section-description">
+          We are a small team of designers and developers, who help brands with
+          big ideas.
+        </p>
+
+        <div class="team__row row text-center">
+          <div class="team__column col-lg-3 col-md-6">
+            <div class="item-team">
+              <div class="item-team__photo">
+                <img src="images/team-1.jpg" alt="Team" />
+              </div>
+              <div class="item-team__name">
+                <h3 class="text-uppercase m-0">Anne Hathaway</h3>
+              </div>
+              <div class="item-team__position">
+                <p class="m-0">CEO / Marketing Guru</p>
+              </div>
+              <div class="item-team__description">
+                <p class="m-0 description">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetuer adipiscing elit, <br />
+                  sed diam nonummy nibh <br />
+                  euismod tincidunt ut laoreet <br />
+                  dolore magna.
+                </p>
+              </div>
+              <div class="item-team__links">
+                <a href="#"
+                  ><img src="images/facebook.png" alt="Facebook" class="pe-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/twitter.png" alt="Twitter" class="pe-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/linkedIn.png" alt="LinkedIn" class="pe-2"
+                /></a>
+                <a href="#"><img src="images/mail.png" alt="Mail" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="team__column col-lg-3 col-md-6">
+            <div class="item-team">
+              <div class="item-team__photo">
+                <img src="images/team-2.jpg" alt="Team" />
+              </div>
+              <div class="item-team__name">
+                <h3 class="text-uppercase m-0">Kate Upton</h3>
+              </div>
+              <div class="item-team__position">
+                <p class="m-0">Creative Director</p>
+              </div>
+              <div class="item-team__description">
+                <p class="m-0">
+                  Duis aute irure dolor in in <br />
+                  voluptate velit esse cillum <br />
+                  dolore fugiat nulla pariatur. <br />
+                  Excepteur sint occaecat non <br />
+                  diam proident.
+                </p>
+              </div>
+              <div class="item-team__links">
+                <a href="#"
+                  ><img src="images/twitter.png" alt="Twitter" class="pe-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/linkedIn.png" alt="LinkedIn" class="pe-2"
+                /></a>
+                <a href="#"><img src="images/mail.png" alt="Mail" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="team__column col-lg-3 col-md-6">
+            <div class="item-team">
+              <div class="item-team__photo">
+                <img src="images/team-3.jpg" alt="Team" />
+              </div>
+              <div class="item-team__name">
+                <h3 class="text-uppercase m-0">Olivia Wilde</h3>
+              </div>
+              <div class="item-team__position">
+                <p class="m-0">Lead Designer</p>
+              </div>
+              <div class="item-team__description">
+                <p class="m-0">
+                  Nemo enim ipsam voluptas <br />
+                  sit aspernatur aut odit aut <br />
+                  fugit, sed quia consequuntur <br />
+                  magni dolores eos qui rati-<br />one voluptatem nesciunt.
+                </p>
+              </div>
+              <div class="item-team__links">
+                <a href="#"
+                  ><img src="images/facebook.png" alt="Facebook" class="pe-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/twitter.png" alt="Twitter" class="pe-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/linkedIn.png" alt="LinkedIn" class="pe-2"
+                /></a>
+                <a href="#"><img src="images/mail.png" alt="Mail" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="team__column col-lg-3 col-md-6">
+            <div class="item-team">
+              <div class="item-team__photo">
+                <img src="images/team-4.jpg" alt="Team" />
+              </div>
+              <div class="item-team__name">
+                <h3 class="text-uppercase m-0">Ashley Greene</h3>
+              </div>
+              <div class="item-team__position">
+                <p class="m-0">SEO / Developer</p>
+              </div>
+              <div class="item-team__description">
+                <p class="m-0">
+                  Sed ut perspiciatis unde <br />
+                  omnis iste natus error sit <br />
+                  voluptatem accusantium <br />
+                  doloremque laudantium, <br />
+                  totam rem aperiam.
+                </p>
+              </div>
+              <div class="item-team__links">
+                <a href="#"
+                  ><img src="images/facebook.png" alt="Facebook" class="pe-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/twitter.png" alt="Twitter" class="pe-2"
+                /></a>
+                <a href="#"><img src="images/mail.png" alt="Mail" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="blog">
+      <div class="container">
+        <h2 class="text-center text-uppercase section-heading">
+          We got skills!
+        </h2>
+        <div class="d-flex justify-content-center">
+          <div class="line"></div>
+        </div>
+        <p class="text-center pt-4 m-0 section-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod <br />
+          tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <div class="skills__row row text-center">
+          <div class="skills__column col-lg-3 col-md-6">
+            <div class="item-skills">
+              <div class="item-skills__icon">
+                <img src="images/web-design.png" alt="Web design" />
+              </div>
+              <div class="item-skills__title">
+                <h3 class="text-uppercase m-0">Web design</h3>
+              </div>
+            </div>
+          </div>
+          <div class="skills__column col-lg-3 col-md-6">
+            <div class="item-skills">
+              <div class="item-skills__icon">
+                <img src="images/html-css.png" alt="Html/Css" />
+              </div>
+              <div class="item-skills__title">
+                <h3 class="text-uppercase m-0">Html / Css</h3>
+              </div>
+            </div>
+          </div>
+          <div class="skills__column col-lg-3 col-md-6">
+            <div class="item-skills">
+              <div class="item-skills__icon">
+                <img src="images/graphic-design.png" alt="Graphic design" />
+              </div>
+              <div class="item-skills__title">
+                <h3 class="text-uppercase m-0">Graphic design</h3>
+              </div>
+            </div>
+          </div>
+          <div class="skills__column col-lg-3 col-md-6">
+            <div class="item-skills">
+              <div class="item-skills__icon">
+                <img src="images/UI-UX.png" alt="UI/UX" />
+              </div>
+              <div class="item-skills__title">
+                <h3 class="text-uppercase m-0">Ui / Ux</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="work">
+      <div class="container">
+        <h2 class="text-center text-uppercase section-heading">
+          Our portfolio
+        </h2>
+        <div class="d-flex justify-content-center">
+          <div class="line"></div>
+        </div>
+        <p class="text-center pt-4 m-0 section-description">
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <br />
+          consectetur, adipisci velit, sed quia non numquam
+        </p>
+
+        <div
+          class="
+            portfolio__categories
+            d-flex
+            justify-content-center
+            align-items-center
+            text-center text-uppercase
+          "
+        >
+          <div class="category-portfolio col-sm-1">
+            <div class="category-portfolio__title">
+              <p>All</p>
+            </div>
+          </div>
+          <div class="category-portfolio col-sm-1">
+            <div class="category-portfolio__title">
+              <p>Web</p>
+            </div>
+          </div>
+          <div class="category-portfolio col-sm-1">
+            <div class="category-portfolio__title">
+              <p>Apps</p>
+            </div>
+          </div>
+          <div class="category-portfolio col-sm-1">
+            <div class="category-portfolio__title">
+              <p>Icons</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__row row text-center">
+          <div class="portfolio__column col-xl-6">
+            <div class="item-portfolio">
+              <div class="item-portfolio__icon">
+                <img src="images/mock-up.png" alt="" />
+              </div>
+              <div class="item-portfolio__title">
+                <p class="text-center text-uppercase">
+                  Isometric Perspective Mock-Up
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__column col-xl-6">
+            <div class="item-portfolio">
+              <div class="item-portfolio__icon">
+                <img src="images/time-zone.png" alt="" />
+              </div>
+              <div class="item-portfolio__title">
+                <p class="text-center text-uppercase">Time Zone App UI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__row row text-center">
+          <div class="portfolio__column col-xl-6">
+            <div class="item-portfolio">
+              <div class="item-portfolio__icon">
+                <img src="images/viro.png" alt="" />
+              </div>
+              <div class="item-portfolio__title">
+                <p class="text-center text-uppercase">
+                  Viro Media Players UI copy 2
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__column col-xl-6">
+            <div class="item-portfolio">
+              <div class="item-portfolio__icon">
+                <img src="images/blog.png" alt="" />
+              </div>
+              <div class="item-portfolio__title">
+                <p class="text-center text-uppercase">
+                  Blog / Magazine Flat UI Kit
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a class="button portfolio__button text-light text-uppercase"
+            >Load more projects</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="text-center text-uppercase section-heading">
+          What people say about us
+        </h2>
+        <div class="d-flex justify-content-center">
+          <div class="line"></div>
+        </div>
+        <p class="text-center pt-4 m-0 section-description">
+          Our clients love us!
+        </p>
+
+        <div class="reviews__row row">
+          <div class="reviews__column col-xl-6">
+            <div class="item-reviews d-flex justify-content-center">
+              <div class="item-reviews__photo">
+                <img src="images/client-1.jpg" alt="" class="me-5" />
+              </div>
+              <div>
+                <div class="item-reviews__text">
+                  <p class="pb-4">
+                    “Nullam dapibus blandit orci, viverra <br />
+                    gravida dui lobortis eget. Maecenas <br />
+                    fringilla urna eu nisl scelerisque.”
+                  </p>
+                </div>
+                <div class="item-reviews__name">
+                  <p class="text-uppercase">Chanel Iman</p>
+                </div>
+                <div class="item-reviews__position">
+                  <span>CEO of Pinterest</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__column col-xl-6">
+            <div class="item-reviews d-flex justify-content-center">
+              <div class="item-reviews__photo">
+                <img src="images/client-2.jpg" alt="" class="me-5" />
+              </div>
+              <div>
+                <div class="item-reviews__text">
+                  <p class="pb-4">
+                    “Vivamus luctus urna sed urna ultricies <br />
+                    ac tempor dui sagittis. In condimen-<br />
+                    tum facilisis porta.”
+                  </p>
+                </div>
+                <div class="item-reviews__name">
+                  <p class="text-uppercase">Adriana Lima</p>
+                </div>
+                <div class="item-reviews__position">
+                  <span>Founder of Instagram</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__row row">
+          <div class="reviews__column col-xl-6">
+            <div class="item-reviews d-flex justify-content-center">
+              <div class="item-reviews__photo">
+                <img src="images/client-3.jpg" alt="" class="me-5" />
+              </div>
+              <div>
+                <div class="item-reviews__text">
+                  <p class="pb-4">
+                    “Vivamus luctus urna sed urna ultricies <br />
+                    ac tempor dui sagittis. In condimen-<br />
+                    tum facilisis porta.”
+                  </p>
+                </div>
+                <div class="item-reviews__name">
+                  <p class="text-uppercase">Anne Hathaway</p>
+                </div>
+                <div class="item-reviews__position">
+                  <span>Lead Designer at Behance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__column col-xl-6">
+            <div class="item-reviews d-flex justify-content-center">
+              <div class="item-reviews__photo">
+                <img src="images/client-4.jpg" alt="" class="me-5" />
+              </div>
+              <div>
+                <div class="item-reviews__text">
+                  <p class="pb-4">
+                    “Phasellus non purus vel arcu tempor <br />
+                    commodo. Fusce semper, purus vel luctus <br />
+                    molestie, risus sem cursus neque.”
+                  </p>
+                </div>
+                <div class="item-reviews__name">
+                  <p class="text-uppercase">Emma Stone</p>
+                </div>
+                <div class="item-reviews__position">
+                  <span>Co-founder of Shazam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="message" id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase section-heading">Get in touch</h2>
+        <div class="d-flex justify-content-center">
+          <div class="line"></div>
+        </div>
+        <p class="text-center pt-4 m-0 section-description">
+          1600 Pennsylvania Ave NW, Washington, DC 20500, United States of
+          America. Tel: (202) 456-1111
+        </p>
+
+        <div class="message__row row input-area">
+          <div class="message__column col-sm-6 d-flex">
+            <input type="text" placeholder="Your Name *" />
+          </div>
+          <div class="message__column col-sm-6 d-flex justify-content-start">
+            <input type="text" placeholder="Your Email *" />
+          </div>
+        </div>
+        <div class="message__row row">
+          <div class="message__column col-sm-12 d-flex justify-content-center">
+            <textarea placeholder="Your Message *"></textarea>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a class="button message__button text-light text-uppercase">
+            Send message
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row row justify-content-center text-center">
+          <div class="footer__column col-xl-1">
+            <a href="#">Facebook</a>
+          </div>
+          <div class="footer__column col-xl-1">
+            <a href="#">Twitter</a>
+          </div>
+          <div class="footer__column col-xl-1">
+            <a href="#">Google+</a>
+          </div>
+          <div class="footer__column col-xl-1">
+            <a href="#">LinkedIn</a>
+          </div>
+          <div class="footer__column col-xl-1">
+            <a href="#">Behance</a>
+          </div>
+          <div class="footer__column col-xl-1">
+            <a href="#">Dribbble</a>
+          </div>
+          <div class="footer__column col-xl-1">
+            <a href="#">Github</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
